@@ -1,0 +1,71 @@
+html, body, #root {
+    height: 100%;
+}
+
+* {
+    margin: 0px;
+}
+
+.scaffold {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background: #fff;
+}
+
+.app-side-menu {
+    height: 100%;
+    width: 200px;
+    /* left:20px; */
+    background-color: #00796B;
+    color: #fff;
+}
+
+.app-side-menu #logo {
+    margin: 8px 16px;
+    color: #fff;
+}
+
+.app-side-menu ul {
+    margin-left: 16px;
+    padding: 10px 0;
+}
+
+.app-side-menu a {
+    display: block;
+    padding: 10px 0;
+    color: #ccc;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.app-side-menu a:hover {
+    color: #fff;
+}
+
+.main-content-container {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    background: #0ff;
+}
+
+.app-header {
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    background: #BDBDBD;
+}
+
+.app-footer {
+    width: 100%;
+    height: 200px;
+    background: #BDBDBD;
+    color: #000;
+}
+
+.app-content {
+    margin-top: 64px; /*The height of the   header*/
+    height: 80%;
+}
